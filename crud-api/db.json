@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1749718252572",
+    "name": "iPhone 15",
+    "price": 999,
+    "quantity": 10,
+    "category": "electronics"
+  },
+  {
+    "id": "1749718546734",
+    "name": "sumsung",
+    "price": 9999,
+    "quantity": 30,
+    "category": "electronics"
+  }
+]
