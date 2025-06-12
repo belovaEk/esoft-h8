@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1749718252572",
+    "name": "iPhone 15",
+    "price": 999,
+    "quantity": 10,
+    "category": "electronics"
+  },
+  {
+    "id": "1749718546734",
+    "name": "sumsung",
+    "price": 9999,
+    "quantity": 30,
+    "category": "electronics"
+  },
+  {
+    "id": "1749721509116",
+    "name": "Laptop",
+    "price": 1500,
+    "quantity": 1200,
+    "category": "electronics"
+  },
+  {
+    "id": "1749721579318",
+    "name": "Laptop-mini",
+    "price": 1800,
+    "quantity": 100,
+    "category": "electronics"
+  },
+  {
+    "id": "1749722738661",
+    "name": "rose",
+    "price": 500,
+    "quantity": 30,
+    "category": "flowers"
+  },
+  {
+    "id": "1749722763058",
+    "name": "chamomile",
+    "price": 50,
+    "quantity": 78,
+    "category": "flowers"
+  },
+  {
+    "id": "1749722789970",
+    "name": "lily",
+    "price": 650,
+    "quantity": 24,
+    "category": "flowers"
+  }
+]
