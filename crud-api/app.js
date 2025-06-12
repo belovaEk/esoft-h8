@@ -11,6 +11,13 @@ const PORT = 3000;
 // Middleware, которая автоматически парсит входящие JSON-данные из запросов
 app.use(express.json())
 
+// логирование
+
+app.use((req, res, next) => {
+    console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+    next();
+});
+
 
 // абсолютный путь к файлу db.json
 const DB_PATH = path.join(__dirname, 'db.json');
@@ -137,3 +144,5 @@ app.delete('/items/:id', async (req, res) => {
     
     res.status(204).send();
 });
+
+
