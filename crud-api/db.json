@@ -26,5 +26,26 @@
     "price": 1800,
     "quantity": 100,
     "category": "electronics"
+  },
+  {
+    "id": "1749722738661",
+    "name": "rose",
+    "price": 500,
+    "quantity": 30,
+    "category": "flowers"
+  },
+  {
+    "id": "1749722763058",
+    "name": "chamomile",
+    "price": 50,
+    "quantity": 78,
+    "category": "flowers"
+  },
+  {
+    "id": "1749722789970",
+    "name": "lily",
+    "price": 650,
+    "quantity": 24,
+    "category": "flowers"
   }
 ]

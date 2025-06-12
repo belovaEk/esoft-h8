@@ -56,7 +56,19 @@ loadData().then(() => {
 
 
 app.get('/items', (req, res) => {
-    res.json(products);
+    let result = [...products]
+
+    if(req.query.category) {
+        result = result.filter(p => p.category === req.query.category);
+    }
+
+    const limit = parseInt(req.query.limit) || 10;
+    const offset = parseInt(req.query.offset) || 0;
+    result = result.slice(offset, offset + limit);
+
+    res.json( { total: products.length,
+                count: result.length,
+                items: result } );
 });
 
 app.get('/items/:id', (req, res) =>{
